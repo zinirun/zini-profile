@@ -25,6 +25,13 @@ body {
   }
   .contents-section {
     margin: 30px auto !important;
+    padding: 0.5rem 0.6rem !important;
+  }
+  .col-70 {
+    padding-left: 0px !important;
+  }
+  .col-content {
+    padding-left: 0px !important;
   }
   .table,
   .content-history {
