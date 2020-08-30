@@ -18,13 +18,64 @@ body {
   margin: 0;
 }
 
+@media (max-width: 700px) {
+  .top {
+    font-size: 30px !important;
+  }
+  .table,
+  .content-history {
+    display: block !important;
+  }
+  .section-title {
+    font-size: 19px !important;
+  }
+  .underline-ment {
+    font-size: 14px !important;
+  }
+  .sub-ment {
+    display: block;
+    line-height: 30px;
+  }
+  .table div {
+    font-size: 15px !important;
+  }
+  .table .table-head {
+    margin: 5px 0 2px 0;
+  }
+  .content-study-sub-title {
+    font-size: 14px !important;
+  }
+  .score {
+    font-size: 13px !important;
+  }
+  .stack {
+    font-size: 12px !important;
+  }
+  .history-title,
+  .history-date {
+    font-size: 15px !important;
+  }
+  .table .col-30 {
+    min-width: 140px !important;
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0 auto;
+  }
+  .text-line {
+    font-size: 16px !important;
+  }
+  .text-title {
+    font-size: 19px !important;
+  }
+}
+
 .view-container {
   margin: 0 auto;
   max-width: 1200px;
 }
 
 .top {
-  margin-top: 90px;
+  margin-top: 10%;
   font-size: 50px;
   font-weight: 700;
   color: white;
@@ -229,7 +280,7 @@ body {
 }
 
 .content-study-courses .score {
-  padding: 0.2rem 0.1rem;
+  padding: 0.2rem 0.25rem;
   margin: 0px 5px;
   font-size: 15px;
   background: rgba(0, 138, 143, 0.14);
@@ -255,4 +306,10 @@ body {
   color: white;
   font-weight: 400;
   font-size: 15px;
+}
+
+.big-arrow {
+  text-align: center;
+  font-size: 50px;
+  color: white;
 }
