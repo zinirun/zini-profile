@@ -362,7 +362,7 @@
       function checkSlide(e) {
         sections.forEach((section, index) => {
           const sectionPosition = section.getBoundingClientRect().top - 130;
-          const screenPosition = window.innerHeight * 0.77;
+          const screenPosition = window.innerHeight * 0.8;
           if (sectionPosition < screenPosition) {
             section.classList.add("active");
           }
