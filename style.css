@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(./iconfont/iconfont.css);
 
 html {
   background: url("https://1.bp.blogspot.com/-FdE2gqFQWmg/X0tGs6hOgTI/AAAAAAAAAec/WTahqGP6cNo3SHYbc-pOpy7bcBvnGuk-QCLcBGAsYHQ/s16000/bg-type.jpg")
@@ -18,9 +19,12 @@ body {
   margin: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 845px) {
   .top {
-    font-size: 30px !important;
+    font-size: 28px !important;
+  }
+  .contents-section {
+    margin: 30px auto !important;
   }
   .table,
   .content-history {
@@ -65,7 +69,17 @@ body {
     font-size: 16px !important;
   }
   .text-title {
+    margin-top: 15px !important;
     font-size: 19px !important;
+    text-align: center !important;
+  }
+  .contact-section {
+    margin-top: 0px !important;
+  }
+
+  .col-30 {
+    display: flex !important;
+    flex-direction: column !important;
   }
 }
 
@@ -119,6 +133,10 @@ body {
 
 .contents-section .section-content {
   padding-top: 20px;
+}
+
+.contents-section .intro {
+  margin-bottom: 10px;
 }
 
 .hl {
@@ -189,7 +207,7 @@ body {
 
 .table .col-content {
   border-radius: 0.4rem;
-  padding: 0.7rem;
+  padding-left: 0.7rem;
 }
 
 .intro {
@@ -294,10 +312,10 @@ body {
 }
 
 .content-study-sub-ment {
-  padding: 0.2rem 0.3rem;
-  margin: 0px 5px;
-  font-size: 15px;
-  background: rgba(208, 255, 0, 0.212);
+  padding: 0.15rem 0.2rem;
+  margin: 0px 0px 0px 7px;
+  font-size: 14px;
+  background: rgba(0, 255, 119, 0.212);
   border-radius: 0.2rem;
 }
 
@@ -312,4 +330,42 @@ body {
   text-align: center;
   font-size: 50px;
   color: white;
+}
+
+.contact-section {
+  margin-top: 197px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.iconfont {
+  font-size: 26px !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 3px;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+
+.email {
+  font-weight: 400;
+  font-size: 14px;
+  background: rgba(204, 204, 204, 0.123);
+  padding: 0.2rem 0.3rem;
+  border-radius: 0.2rem;
+}
+.email:hover {
+  color: dodgerblue;
+}
+
+.row-70 {
+  flex: 7;
+}
+.row-30 {
+  flex: 3;
 }
