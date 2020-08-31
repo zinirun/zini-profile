@@ -88,6 +88,9 @@ body {
     display: flex !important;
     flex-direction: column !important;
   }
+  .mobile-hide-span {
+    display: none !important;
+  }
 }
 
 .view-container {
