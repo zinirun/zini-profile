@@ -31,6 +31,12 @@ body {
   .contents-section:hover {
     opacity: 0.95 !important;
   }
+  .contents-section.intro {
+    opacity: 1 !important;
+  }
+  .contents-section.intro:hover {
+    opacity: 1 !important;
+  }
   .col-70 {
     padding-left: 0px !important;
   }
