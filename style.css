@@ -24,8 +24,12 @@ body {
     font-size: 28px !important;
   }
   .contents-section {
-    margin: 30px auto !important;
+    margin: 35px auto !important;
     padding: 0.5rem 0.6rem !important;
+    opacity: 0.85 !important;
+  }
+  .contents-section:hover {
+    opacity: 0.95 !important;
   }
   .col-70 {
     padding-left: 0px !important;
@@ -136,6 +140,10 @@ body {
   opacity: 1;
 }
 
+.contents-section:hover {
+  opacity: 0.95;
+}
+
 .contents-section .section-title {
   font-size: 26px;
   font-weight: 600;
@@ -155,6 +163,14 @@ body {
 
 .big-hl {
   font-weight: 800;
+}
+
+.hover-red {
+  transition: 0.7s all;
+}
+
+.top:hover .hover-red {
+  color: rgb(255, 30, 60);
 }
 
 .table {
